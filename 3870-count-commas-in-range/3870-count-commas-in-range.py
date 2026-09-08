@@ -4,7 +4,5 @@ class Solution:
         if n<1000:
             return count
         else:
-            for i in range (1000,n+1):
-                count +=1
-            return count
+            return (n-999)
         
